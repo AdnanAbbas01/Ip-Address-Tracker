@@ -1,0 +1,15 @@
+.Backdrop{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    z-index: 77;
+    display: none;
+}
+
+.visible{
+    display: block;
+}

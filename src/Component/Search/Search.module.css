@@ -1,0 +1,137 @@
+.main{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 30vh;
+    width: 100%;
+    background: url('../../Images/pattern-bg.png') no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.main h1{
+    margin: 0;
+    color: #fff;
+}
+
+.inbtn{
+    height: 40px;
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px 20px;
+    background-color: black;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.788);
+}
+.input{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(2, 32, 66, 0.3);
+}
+
+.input:focus{
+    outline: none;
+}
+
+.none{
+    display: none;
+}
+
+.details{
+    background-color: #fff;
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,0);
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0px 5px 9px rgba(75, 50, 50, 0.2);
+}
+
+.detailsSub{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-right: 1px solid #ccc;
+    width: 300px;
+}
+.detailsSub h2{
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.detailsSub p{
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+.lastSub{
+    border: none;
+}
+
+@media only screen and (max-width: 400px){
+    
+    .main{
+        height: 40vh;
+    }
+
+    .inbtn{
+        width: 300px;
+        box-sizing: border-box;
+        margin: 20px auto 10px auto;
+    }
+    .details{
+        background-color: #fff;
+        position:relative;
+        top: 0;
+        margin-top: 10px;
+        width: 300px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 8px;
+        box-sizing: border-box;
+        box-shadow: 0px 5px 9px rgba(75, 50, 50, 0.2);
+    }
+    
+    .detailsSub{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-right: none;
+        width: auto;
+    }
+    .detailsSub p{
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    }   
+
+}
